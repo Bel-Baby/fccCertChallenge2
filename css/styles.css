@@ -1,0 +1,60 @@
+body {
+    height: 100dvh;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.headerContainer {
+    max-width: 500px;
+    text-align: center;
+}
+
+.headerContainer h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.headerContainer h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.coverterConatiner {
+    background-color: aliceblue;
+    opacity: 0.4;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgba(60, 1, 10, 0.5);
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.coverterConatiner h4 {
+    font-size: 25px;
+}
+
+.numberInput {
+    width: 470px;
+    height: 50px;
+    outline: none;
+    margin-bottom: 15px;
+    background-color: burlywood;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+button {
+    width: 470px;
+    height: 50px;
+    outline: none;
+    font-size: 30px;
+}
+
+#output {
+    font-size: 25px;
+}
